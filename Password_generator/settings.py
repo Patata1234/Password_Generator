@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'Password_generator.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postres:postgres@localhost:/postgres',
+        default='postgresql://postgres:postgres@localhost:/postgres',
         conn_max_age=600
     )
 }
